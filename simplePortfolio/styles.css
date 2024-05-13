@@ -1,0 +1,200 @@
+body{
+  background-color: #BED7DC;
+}
+
+.topnav{
+    background-color: #A79277;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-left: -8px;
+    
+}
+
+.topnav .web{
+  background-color: #A79277;
+  width: 9%;
+  height: 70px;
+  top: 0;
+}
+
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: -10px;
+  }
+
+  .topnav a:hover {
+    background-color: #453F78;
+    color: #fff;
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+.foto{
+  width: 100px;
+  height: 100px;
+  margin-left:  100 px;
+}
+
+img{
+  border: 5px solid #524C42;
+  border-radius: 50%;
+  background-color: burlywood;
+  height: 100px;
+  width: 100px;
+}
+
+.tentang-s{
+  background-color: #eaeaea;
+  width: 50%;
+  height: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.tentang-s .text{
+  text-align: center;
+}
+
+
+.motto{
+  background-color: #eaeaea;
+  width: 50%;
+  height: 180px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.motto .text{
+  text-align: center;
+}
+
+hr{
+  border-top: 2px solid black;
+}
+
+.skill .python{
+  background-color: #eaeaea;
+  margin-left: 50px;
+  padding: 20px;
+  width: 30%;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.skill .cpp{
+  background-color: #eaeaea;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 20px;
+  width: 30%;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.skill .jvs{
+  background-color: #eaeaea;
+  margin-left: 50px;
+  padding: 20px;
+  width: 30%;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.skill .frontend{
+  background-color: #eaeaea;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 20px;
+  width: 30%;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.skill .backend{
+  background-color: #eaeaea;
+  margin-left: 50px;
+  padding: 20px;
+  width: 30%;
+  height: 150px;
+  border-radius: 25px;
+}
+
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: calc(100% - 22px);
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Confirmation styles */
+.confirmation {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  border-radius: 5px;
+}
+
+.confirmation p {
+  color: #3c763d;
+}

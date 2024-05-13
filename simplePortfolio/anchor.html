@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kritik & Saran</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kritik & Saran</h1>
+    <form id="feedbackForm">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="npm">NPM:</label>
+      <input type="text" id="npm" name="npm" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="kritik">Kritik:</label>
+      <textarea id="kritik" name="kritik" required> </textarea><br>
+      <label for="kritik">Saran:</label>
+      <textarea id="saran" name="saran" required> </textarea><br>
+      <button type="submit">Kirim</button>
+    </form>
+
+    <div id="confirmation" class="hidden">
+      <p>Terima kasih, <span id="confirmationName"></span>! Kritik dan saran Anda telah berhasil dikirim.</p>
+    </div>
+    <div class="content">
+      <a href="index.html"><button>Kembali ke Beranda</button></a>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
